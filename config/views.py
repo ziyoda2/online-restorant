@@ -22,8 +22,21 @@ class AboutView(View):
     def get(self, request):
         about = About.objects.last()
         return render(request, 'contact/about.html', {"about": about})
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
